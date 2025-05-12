@@ -1,0 +1,46 @@
+.header {
+    background-color: rgb(196, 195, 195);
+    color: rgb(245, 7, 7);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .header a {
+    color: rgb(41, 40, 40);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1rem;
+  }
+  
+  /* Hover effect */
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  /*Responsive styles*/
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+    }
+  
+    .header h1 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .header a {
+      margin-left: 0;
+      margin-top: 0.5rem;
+    }
+  }
+  

@@ -1,0 +1,15 @@
+.countries-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  
+  .country-card {
+    background-color: rgb(255, 254, 254);
+    border: 1px solid #e99393;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
