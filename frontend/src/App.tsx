@@ -5,6 +5,7 @@ import { PageLayout } from "./components/Layout";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import CountriesList from "./pages/listCountries";
 import CountryDetails from "./pages/countryDetails";
+import AddCountry from "./pages/AddCountry";
 
 const client = new ApolloClient({
   uri: "/api",

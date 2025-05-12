@@ -16,7 +16,7 @@ const CountryDetailsPage = () => {
   if (error) return <p>Error: {error.message}</p>;
   if (!data || !data.country) return <p>Country not found.</p>;
 
-  const { name, emoji, code: countryCode, continent } = data.country;
+  const { name, code: countryCode, continent } = data.country;
 
   return (
     <div>

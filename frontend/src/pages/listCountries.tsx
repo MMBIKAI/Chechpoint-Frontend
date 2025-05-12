@@ -2,6 +2,7 @@ import { useQuery } from "@apollo/client";
 import { GET_COUNTRIES } from "../api/example";
 import CountryCard from "../components/countryCard";
 import "../styles/Countries-list.css";
+import "../styles/Botton.css"
 import { Link } from "react-router-dom";
 
 export default function CountriesList() {
@@ -22,7 +23,7 @@ export default function CountriesList() {
           <CountryCard key={country.name} name={country.name} emoji={country.emoji} code={country.code}/>
         ))}
       </section>
-        <div>
+        <div className="center-container">
           <Link to="/add-country" className="add-button">
           Add New Country
         </Link>  

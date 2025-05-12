@@ -18,8 +18,33 @@ query GetCountryByCode($code: String!) {
     emoji
     code
     continent {
+        id  
       name
     }
   }
 }
+`;
+
+export const GET_CONTINENTS = gql`
+  query Continents {
+    continents {
+      id
+      name
+    }
+  }
+`;
+
+export const ADD_COUNTRY_MUTATION = gql`
+mutation AddCountry($data: NewCountryInput!) {
+    addCountry(data: $data) {
+      id
+      name
+      code
+      emoji
+      continent {
+        id
+        name
+      }
+    }
+  }
 `;
