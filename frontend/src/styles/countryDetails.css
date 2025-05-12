@@ -1,0 +1,44 @@
+/* Country Details Page */
+.country-details-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .country-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .country-details-info {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .country-details-info p {
+    margin: 10px 0;
+  }
+  
+  .country-details-info strong {
+    color: #ff0303;
+  }
+  
+  .country-details-info p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .country-details-info p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Optional: Add a background color to the body for a better contrast */
+  body {
+    background-color: #f0f0f0;
+  }
