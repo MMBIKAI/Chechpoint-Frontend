@@ -1,0 +1,33 @@
+
+
+.home-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home-title {
+    color: r;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .home-description {
+    color: rgb(115, 114, 114);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .home-container {
+      padding: 1rem;
+      margin: 1rem;
+    }
+  
+    .home-title {
+      font-size: 2rem;
+    }
+  }
